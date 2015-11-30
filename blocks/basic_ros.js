@@ -51,7 +51,7 @@ Blockly.Blocks['twist_backward'] = {
   init: function() {
     this.appendDummyInput()
         .appendField("Go backwards")
-        .appendField(new Blockly.FieldTextInput("3"), "BACKWARDS_SECS")
+        .appendField(new Blockly.FieldTextInput("3"), "BACKWARD_SECS")
         .appendField("seconds");
     this.setPreviousStatement(true);
     this.setNextStatement(true);
